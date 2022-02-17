@@ -5,7 +5,7 @@ const typeWriter = function (sentence) {
   for (let i = 0; i < sentence.length; i++) {
     setTimeout(() => {
       process.stdout.write(sentence[i])
-    }, 50 * (i + 50))
+    }, 50 * i)
   }
 }
 
